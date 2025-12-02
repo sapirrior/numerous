@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { CONFIG } from "./config.js";
 import { getUserKey } from "./utils/data.js";
-import { isOnCooldown } from "./utils/cooldown.js";
+import { isOnCooldown } from "./helpers/cooldown.js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const client = new Client({
